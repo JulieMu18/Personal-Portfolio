@@ -1,0 +1,113 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative&family=Dancing+Script:wght@700&family=Source+Serif+Pro:ital,wght@1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700;&display=swap');
+*{
+Margin:2px;
+/*padding: 0;*/
+/*box-sizing:border-box*/
+/*margin-bottom:*/
+}
+
+.navbar li{
+    color:black;
+    font-family: 'Dancing Script';
+    font-size: 20px;
+    font-weight: 700;
+}
+.container-fluid{
+    font-family: 'dancing Script';
+    font-size: 60px;
+    letter-spacing: 2px;
+    font-weight: 30px;
+}
+
+h1{
+    margin-top:5rem;
+    font-weight:bold 1000px;
+    font-family: 'Dancing Script', 'san-serrif';
+    font-size: 70px;
+    letter-spacing: 2px;
+    color:black;
+}
+    
+h2 {
+    font-weight:lighter 5px;
+    color: darkslategray;
+    font-family: 'Dancing Script',;
+    letter-spacing: 2px;
+    font-size: 45px;
+}
+
+body {
+   background-image: url(./images/art.jpeg);
+   background-position: 0,1000px;
+   background-size: 100%;
+   float: center;
+}
+
+.container{
+    max-width: 1100px;
+    margin: auto;
+    padding: 0, 3rem;
+    margin-top: 4rem;
+    text-align: center;
+}
+img{
+    border-radius: 50%;
+    
+}
+p{
+    font-size: 3rem;
+    color:black;
+    margin-bottom: 3rem;
+}
+
+.btn{
+    background-color: rgb(221, 154, 123);
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 30px;
+    margin-bottom: 2em;
+    padding: 1.5rem;
+    border-radius: 20px;
+}
+.btn a{
+  
+    transition: 0.5s;
+    align-items: center;
+    background-color:#8d548d;
+
+}
+.btn:hover {
+    background: coral;
+
+}
+.footer{
+    padding: 20px;
+}
+.aboutme{
+    position:center;
+    margin:2rem;
+    font-size: 2rem;
+    font-family: 'Dancing Script', 'san-serrif';   
+}
+.intouchtext{
+    position:center;
+    margin:2rem;
+    font-size: 5rem;
+    font-family: 'Dancing Script', 'san-serrif';
+    
+}
+.socials {
+    text-decoration: none;
+    margin: 30px;
+    padding: 30x;
+    position:relative;
+    left: 495px;
+    transition: 0.2s;
+}
+.socials:hover{
+    color: rgb(13, 127, 180);
+}
